@@ -1,0 +1,39 @@
+{
+  "name": "generated-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port 0",
+    "build": "next build",
+    "start": "next start --port 0",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "framer-motion": "^11.0.0",
+    "three": "^0.168.0",
+    "@react-three/fiber": "8.15.16",
+    "@react-three/drei": "9.92.7",
+    "gsap": "^3.12.5",
+    "locomotive-scroll": "^4.1.4",
+    "tsparticles": "^3.5.0",
+    "@tsparticles/react": "^3.0.0",
+    "styled-components": "^6.1.0",
+    "scrollreveal": "^4.0.9",
+    "@types/three": "^0.168.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "eslint": "8.57.0",
+    "@typescript-eslint/parser": "7.18.0",
+    "@typescript-eslint/eslint-plugin": "7.18.0",
+    "tailwindcss": "^3.4.10",
+    "postcss": "^8.4.41",
+    "autoprefixer": "^10.4.19",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0"
+  }
+}

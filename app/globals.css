@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https:/* fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap'); */
+
+:root {
+  --primary-color: #ff69b4; /* Updated to a pink shade for luxury */
+  --secondary-color: #ffffff; /* Keeping white for elegance */
+  --font-family: 'Inter', sans-serif; /* Changed to Inter for a modern look */
+}
+
+body {
+  font-family: var(--font-family);
+  margin: 0;
+  padding: 0;
+  background-color: var(--secondary-color); /* Set background to white */
+  color: var(--primary-color); /* Set text color to pink */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-color); /* Ensuring headings are in primary color */
+}
+
+a {
+  color: var(--primary-color); /* Links in primary color */
+  text-decoration: none; /* Removing underline for a cleaner look */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover for interactivity */
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
